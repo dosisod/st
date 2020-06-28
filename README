@@ -1,3 +1,12 @@
+This is my modified build of st.
+
+Current patches:
+
+https://st.suckless.org/patches/alpha/
+https://st.suckless.org/patches/bold-is-not-bright/
+
+This is the original readme:
+
 st - simple terminal
 --------------------
 st is a simple terminal emulator for X which sucks less.
