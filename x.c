@@ -1106,6 +1106,18 @@ xicdestroy(XIC xim, XPointer client, XPointer call)
 }
 
 void
+xfullscreen(Display *dpy, Window win) {
+	//snagged from https://stackoverflow.com/a/17576405
+	Atom atoms[2] = {
+		XInternAtom(dpy, "_NET_WM_STATE_FULLSCREEN", False),
+		None
+	};
+	XChangeProperty(dpy, win, XInternAtom(dpy, "_NET_WM_STATE", False),
+	                XA_ATOM, 32, PropModeReplace, (unsigned char *)atoms, 1
+	);
+}
+
+void
 xinit(int cols, int rows)
 {
 	XGCValues gcvalues;
@@ -1163,6 +1175,9 @@ xinit(int cols, int rows)
 			win.w, win.h, 0, xw.depth, InputOutput,
 			xw.vis, CWBackPixel | CWBorderPixel | CWBitGravity
 			| CWEventMask | CWColormap, &xw.attrs);
+
+	if (allowfullscreen)
+		xfullscreen(xw.dpy, xw.win);
 
 	memset(&gcvalues, 0, sizeof(gcvalues));
 	gcvalues.graphics_exposures = False;
