@@ -47,9 +47,6 @@ int allowaltscreen = 1;
    setting the clipboard text */
 int allowwindowops = 0;
 
-/* toggles fullscreen on startup */
-unsigned int allowfullscreen = 1;
-
 /*
  * draw latency range in ms - from new content/keypress/etc until drawing.
  * within this range, st draws when content stops arriving (idle). mostly it's

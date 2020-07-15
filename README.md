@@ -5,7 +5,6 @@ This is my custom build of `st`.
 ## Patches
 
 * [alpha](https://st.suckless.org/patches/alpha/)
-* [fullscreen](https://github.com/dosisod/st/commit/895f704526109966582b48f27bbe149ce9c8d24a.diff)
 
 Below is a copy of the original README.
 
