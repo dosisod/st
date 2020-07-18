@@ -5,6 +5,7 @@ This is my custom build of `st`.
 ## Patches
 
 * [alpha](https://st.suckless.org/patches/alpha/)
+* [scrollback](https://st.suckless.org/patches/scrollback/)
 
 Below is a copy of the original README.
 
