@@ -6,6 +6,7 @@ This is my custom build of `st`.
 
 * [alpha](https://st.suckless.org/patches/alpha/)
 * [scrollback](https://st.suckless.org/patches/scrollback/)
+* [hidecursor](https://st.suckless.org/patches/hidecursor/)
 
 Below is a copy of the original README.
 
