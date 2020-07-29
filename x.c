@@ -810,7 +810,7 @@ xloadcols(void)
 		}
 
 	/* set alpha value of bg color */
-	float alpha = 1;
+	float alpha = 0.8;
 	if (opt_alpha)
 		alpha = strtof(opt_alpha, NULL);
 	dc.col[defaultbg].color.alpha = (unsigned short)(0xffff * alpha);
