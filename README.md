@@ -8,6 +8,7 @@ This is my custom build of `st`.
 * [scrollback](https://st.suckless.org/patches/scrollback/)
 * [hidecursor](https://st.suckless.org/patches/hidecursor/)
 * [boxdraw](http://st.suckless.org/patches/boxdraw/)
+* [anysize](https://st.suckless.org/patches/anysize/)
 
 Below is a copy of the original README.
 
