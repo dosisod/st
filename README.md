@@ -10,6 +10,7 @@ This is my custom build of `st`.
 * [boxdraw](http://st.suckless.org/patches/boxdraw/)
 * [anysize](https://st.suckless.org/patches/anysize/)
 * [undercurl](https://st.suckless.org/patches/undercurl/)
+* [font2](https://st.suckless.org/patches/font2/)
 
 Below is a copy of the original README.
 

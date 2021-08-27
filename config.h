@@ -6,6 +6,11 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "JetBrains Mono:pixelsize=14.5:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true",
+};
+
 static int borderpx = 2;
 
 /*
