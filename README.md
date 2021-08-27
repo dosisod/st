@@ -9,6 +9,7 @@ This is my custom build of `st`.
 * [hidecursor](https://st.suckless.org/patches/hidecursor/)
 * [boxdraw](http://st.suckless.org/patches/boxdraw/)
 * [anysize](https://st.suckless.org/patches/anysize/)
+* [undercurl](https://st.suckless.org/patches/undercurl/)
 
 Below is a copy of the original README.
 
