@@ -11,6 +11,25 @@ This is my custom build of `st`.
 * [anysize](https://st.suckless.org/patches/anysize/)
 * [undercurl](https://st.suckless.org/patches/undercurl/)
 * [font2](https://st.suckless.org/patches/font2/)
+* [bgra-glyphs](https://gitlab.freedesktop.org/mawww/libxft.git) patch for libXft
+
+## Building
+
+Since this requires having a patched version of libXft, some initial setup is
+required. When first installing:
+
+```
+$ git clone --recurse-submodules https://github.com/dosisod/st
+$ cd st/libxft
+$ git checkout bgra-glyphs
+$ sh autogen.sh && ./configure && make
+$ cd ../freetype
+$ sh autogen.sh && ./configure && make
+$ cd ..
+```
+
+Tested on Ubuntu 18.04.
+
 
 Below is a copy of the original README.
 
