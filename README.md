@@ -12,6 +12,7 @@ This is my custom build of `st`.
 * [undercurl](https://st.suckless.org/patches/undercurl/)
 * [font2](https://st.suckless.org/patches/font2/)
 * [bgra-glyphs](https://gitlab.freedesktop.org/mawww/libxft.git) patch for libXft
+* [sixel](https://github.com/bakkeby/st-flexipatch)
 
 ## Building
 
