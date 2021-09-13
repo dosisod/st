@@ -1818,8 +1818,6 @@ csihandle(void)
 			tclearregion(0, term.c.y, term.c.x, term.c.y);
 			break;
 		case 2: /* screen */
-			tclearregion(0, 0, term.col-1, term.row-1);
-			break;
 		case 3: /* all including scrollback */
 			tclearregion(0, 0, term.col-1, term.row-1);
 
