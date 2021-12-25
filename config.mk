@@ -16,8 +16,8 @@ PKG_CONFIG = pkg-config
 INCS = -I$(X11INC) \
        `$(PKG_CONFIG) --cflags fontconfig` \
        `$(PKG_CONFIG) --cflags freetype2`
-LIBS = -L$(X11LIB) -lm -lrt -lX11 -lutil ./libxft/src/.libs/libXft.a -lXrender\
-		./freetype/objs/.libs/libfreetype.a -lpng -lz -lbz2 \
+LIBS = -L$(X11LIB) -lm -lrt -lX11 -lutil -lXft -lXrender
+       -lfreetype -lpng -lz -lbz2 \
        `$(PKG_CONFIG) --libs fontconfig`
 
 #       `$(PKG_CONFIG) --libs freetype2`
