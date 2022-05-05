@@ -298,3 +298,4 @@ extern XWindow xw;
 extern XSelection xsel;
 extern TermWindow win;
 extern Term term;
+extern unsigned int defaultcs;
