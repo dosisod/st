@@ -13,6 +13,7 @@ This is my custom build of `st`.
 * [font2](https://st.suckless.org/patches/font2/)
 * [bgra-glyphs](https://gitlab.freedesktop.org/mawww/libxft.git) patch for libXft
 * [sixel](https://github.com/bakkeby/st-flexipatch)
+* ["maxcol"](https://github.com/nimaipatel/st/blob/master/patches/7672445bab01cb4e861651dc540566ac22e25812.diff)
 
 ## Building
 
